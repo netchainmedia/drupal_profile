@@ -1,0 +1,73 @@
+name: NetChain Media
+type: profile
+description: NetChain Media's default Drupal installation profile.
+core_version_requirement: '^8.8 || ^9'
+distribution:
+  name: NetChain Media
+  langcode: en
+
+install:
+  - admin_toolbar
+  - admin_toolbar_tools
+  - module_filter
+  - views
+  - views_ui
+  - ckeditor
+  - page_manager
+  - page_manager_ui
+  - panels
+  - panels_ipe
+  - ds
+  - ds_extras
+  - google_tag
+  - metatag
+  - metatag_hreflang
+  - metatag_open_graph
+  - metatag_page_manager
+  - metatag_verification
+  - metatag_twitter_cards
+  - path
+  - pathauto
+  - big_pipe
+  - config
+  - contextual
+  - entity_browser
+  - field_ui
+  - history
+  - image
+  - inline_form_errors
+  - dynamic_page_cache
+  - page_cache
+  - layout_builder
+  - link
+  - media
+  - media_library
+  - menu_ui
+  - options
+  - quickedit
+  - responsive_image
+  - simple_sitemap
+  - simple_sitemap_engines
+  - simple_sitemap_views
+  - statistics
+  - taxonomy
+  - telephone
+  - update
+  - help
+
+dependencies:
+  - node
+  - block
+  - views
+  - token
+  - layout_discovery
+  - ctools
+  - jquery_ui
+  - jquery_ui_draggable
+  - jquery_ui_droppable
+  - settings_tray
+  - menu_link_content
+
+themes:
+  - bartik
+  - seven

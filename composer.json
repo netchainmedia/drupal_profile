@@ -1,0 +1,15 @@
+{
+    "name": "netchainmedia/drupal_profile",
+    "description": "NetChain Media's default Drupal installation profile",
+    "type": "ncm-profile",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "netchainmedia",
+            "email": "support@netchainmedia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
