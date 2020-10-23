@@ -54,6 +54,9 @@ install:
   - telephone
   - update
   - help
+  - redirect
+  - redirect_404
+  - redirect_domain
 
 dependencies:
   - node
